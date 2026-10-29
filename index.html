@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethan Pugh — Systems &amp; Software Engineer</title>
+    <meta name="description" content="Portfolio of Ethan Pugh (@ethanpugh) — Systems Engineer at General Dynamics Mission Systems, First Class Computer Science (BSc Hons) graduate, and full-stack software developer." />
+    <meta property="og:title" content="Ethan Pugh — Systems &amp; Software Engineer" />
+    <meta property="og:description" content="Systems Engineer &amp; Software Developer building resilient systems, automation tooling, and self-hosted web applications." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ethanpugh.github.io" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+    <script>
+        (function () {
+            try {
+                var saved = localStorage.getItem('theme');
+                if (saved === 'light') {
+                    document.documentElement.classList.remove('dark');
+                } else {
+                    document.documentElement.classList.add('dark');
+                }
+            } catch (e) {}
+        })();
+    </script>
+</head>
+
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-teal-500/20 selection:text-teal-600 dark:selection:text-teal-300 transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
